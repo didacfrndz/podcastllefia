@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.menusuperior{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.submenu{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    
+}
+.sb{
+    margin:20px;
+    
+}
+body{
+    background-color: rgba(197,223,197,255);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.elh2{
+    justify-content: start;
+    display: flex;
+    text-align: left;
+    background-color: black;
+    color: rgba(197,223,197,255);
+}
+.nosotros{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    justify-content: start;
+}
+.texto{
+    width: 50%;
+    height: auto;
+    padding-right: ;
+}
+.imagen{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+.contacto{
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    border: solid black 2px;
+    
+}
